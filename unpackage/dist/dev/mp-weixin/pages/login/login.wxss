@@ -1,0 +1,37 @@
+/* 水平间距 */
+/* 水平间距 */
+.form-background {
+  background-color: #2f2f2f;
+  padding: 6vw;
+  margin: 4vw;
+  border-radius: 1vw;
+  box-shadow: 1vw 1vw 4vw 0.5vw dimgray;
+}
+.form-background .forms-sub-item .label {
+  min-width: 1vw;
+  color: #fff;
+  margin-bottom: 1vw;
+}
+.img-ctr {
+  min-height: 36vw;
+  display: flex;
+  justify-content: center;
+}
+.img-ctr .muyu {
+  height: 36vw;
+  width: 36vw;
+}
+.page-title {
+  color: aliceblue;
+  font-size: 9vw;
+  text-align: center;
+  margin-top: 1.6vw;
+}
+.modeSwitch {
+  color: #f6c667;
+  min-width: 10vw;
+  height: 10vw;
+  text-align: center;
+  line-height: 10vw;
+  margin-bottom: 4vw;
+}

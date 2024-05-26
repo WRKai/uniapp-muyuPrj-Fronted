@@ -1,0 +1,64 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "云木鱼",
+			"navigationBarBackgroundColor": "#000000"
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "个人中心",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/settings/settings",
+		"style": {
+			"navigationBarTitleText": "设置",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "登录或注册",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"tabBar": {
+		"color": "#fff",
+		"selectedColor": "#f6c667",
+		"backgroundColor": "#000000",
+		"borderStyle": "black",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar-icons/home_line_MT_UI.png",
+				"selectedIconPath": "static/tabbar-icons/home_fill_MT_UI.png"
+			},
+			{
+				"text": "个人",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tabbar-icons/user_line_MT_UI.png",
+				"selectedIconPath": "static/tabbar-icons/user_fill_MT_UI.png"
+			},
+			{
+				"text": "设置",
+				"pagePath": "pages/settings/settings",
+				"iconPath": "static/tabbar-icons/new_line_MT_UI.png",
+				"selectedIconPath": "static/tabbar-icons/new_fill_MT_UI.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#000000",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

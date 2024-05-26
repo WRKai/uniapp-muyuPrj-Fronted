@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="total-gongde-display"> 总功德: {{b}}</view><view class="gongde-display"> 本次功德: {{c}}</view><view class="container"><view class="img-ctr" bindtap="{{i}}"><view class="tips-text-box" ref="tipsTextBox"><view class="tips-content" animation="{{e}}" hidden="{{!f}}"> 功德+{{d}}</view></view><image animation="{{g}}" src="{{h}}" class="muyu"></image></view></view>

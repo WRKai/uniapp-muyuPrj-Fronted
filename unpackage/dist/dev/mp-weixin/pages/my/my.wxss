@@ -1,0 +1,44 @@
+/* 水平间距 */
+/* 水平间距 */
+.info-box {
+  margin: 4vw;
+  padding: 2vw;
+  color: #fff;
+  background-color: #2f2f2f;
+  min-height: 14vw;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 1vw 1vw 2vw 0.2vw gray;
+}
+.info-box .info-box-title {
+  font-size: 6vw;
+  border-bottom: 1px dotted gainsboro;
+  padding-bottom: 1vw;
+}
+.info-box .info-box-content {
+  font-size: 5vw;
+  padding-top: 1vw;
+  color: #f6c667;
+}
+.info-box-single {
+  margin: 4vw;
+  padding: 2vw;
+  color: #fff;
+  background-color: #2f2f2f;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 1vw 1vw 2vw 0.2vw gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-box-single .info-box-title {
+  font-size: 6vw;
+}
+.info-div {
+  margin: 4vw;
+  padding: 2vw;
+  color: #fff;
+  min-height: 2vw;
+  border-radius: 8px;
+}

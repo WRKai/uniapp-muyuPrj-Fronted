@@ -1,0 +1,42 @@
+/* 水平间距 */
+/* 水平间距 */
+.using-floatUp {
+  transform: translate(0, -10vw);
+  opacity: 0;
+}
+.gongde-display {
+  color: aliceblue;
+  font-size: 8vw;
+  text-align: center;
+}
+.total-gongde-display {
+  color: aliceblue;
+  font-size: 6vw;
+  text-align: center;
+}
+.container .img-ctr {
+  height: 70vw;
+  width: 70vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -35vw;
+  margin-left: -35vw;
+}
+.container .img-ctr .muyu {
+  height: 70vw;
+  width: 70vw;
+}
+.container .img-ctr .tips-text-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 36vw;
+  min-width: 36vw;
+  z-index: 99;
+  font-size: 10vw;
+}
+.container .img-ctr .tips-text-box .tips-content {
+  color: aliceblue;
+  text-align: center;
+}

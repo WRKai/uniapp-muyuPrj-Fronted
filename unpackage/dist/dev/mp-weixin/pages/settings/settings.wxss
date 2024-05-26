@@ -1,0 +1,50 @@
+/* 水平间距 */
+/* 水平间距 */
+.info-box-settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4vw;
+  padding: 2vw;
+  color: #fff;
+  background-color: #2f2f2f;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 1vw 1vw 2vw 0.2vw gray;
+}
+.info-box-settings .info-box-title {
+  font-size: 6vw;
+  padding-bottom: 1vw;
+}
+.info-box-settings .info-box-content {
+  font-size: 5vw;
+  padding-top: 1vw;
+  color: #f6c667;
+}
+.info-box {
+  margin: 4vw;
+  padding: 2vw;
+  color: #fff;
+  background-color: #2f2f2f;
+  min-height: 14vw;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  box-shadow: 1vw 1vw 2vw 0.2vw gray;
+}
+.info-box .info-box-title {
+  font-size: 6vw;
+  border-bottom: 1px dotted gainsboro;
+  padding-bottom: 1vw;
+}
+.info-box .info-box-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4vw;
+  padding: 2vw 0;
+  padding-left: 5vw;
+  border-bottom: 1px dotted darkslategrey;
+}
+.info-box .info-box-content:last-child {
+  border-bottom: none;
+}
